@@ -1,0 +1,59 @@
+body{
+	background-image: url('wallpaper3.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	background-size: cover;
+}
+.tm-container{
+	max-width: 1500px;
+	margin: 0 auto; 
+}
+.tm-header{
+	background: linear-gradient(to right, green, yellow, orange);
+}
+.tm-header::after{
+	content: " ";
+	clear: both;
+	display: block;
+
+}
+.tm-nav ul li{
+	display: inline-block;
+}
+.tm-nav ul li a{
+	font-size: 200%;
+	line-height: 100px;
+	padding: 10px 20px;
+	text-decoration: none;
+	color: rgb(30,30,30);
+	float: right;
+	font-family: helvetica;
+}
+.tm-logo{
+	float: left;
+}
+.tm-nav ul li a:hover{
+	color: blue;
+	font-family: Courier New;
+}
+.interests{
+	float: right;
+}
+.codepic{
+	width: 800px;
+	height: 500;
+}
+.para{
+	float: left;
+	width: 650px;
+	height: 500px;
+	padding-left: 10px;
+	background: linear-gradient(to bottom, violet, indigo, blue, green, yellow, orange, red);
+	font-size: 150%;
+	font-family: algerian;
+	font-color: red;
+	margin-left: 450px;
+}
+.para:hover{
+	color: rgb(211, 83, 14);
+}

@@ -1,0 +1,59 @@
+body{
+	background-image: url('pic1.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+}
+.tm-container{
+	max-width: 1500px;
+	margin: 0 auto; 
+}
+.tm-header{
+	background: radial-gradient(orange,yellow,green);
+}
+.tm-header::after{
+	content: " ";
+	clear: both;
+	display: block;
+
+}
+.tm-nav ul li{
+	display: inline-block;
+}
+.tm-nav ul li a{
+	font-size: 200%;
+	line-height: 100px;
+	padding: 10px 20px;
+	text-decoration: none;
+	color: rgb(30,30,30);
+	float: right;
+	font-family: helvetica;
+}
+.tm-logo{
+	float: left;
+}
+.tm-nav ul li a:hover{
+	color: blue;
+	font-family: Courier New;
+}
+.interests{
+	float: right;
+}
+.para{
+	float: left;
+	width: 650px;
+	height: 500px;
+	padding-left: 10px;
+	margin-left: 450px;
+	margin-top: 30px;
+	font-size: 160%;
+	background-image: url('wallpaper4.jpg');
+}
+.para1 b{
+	font-family: helvetica;
+	font-size: 29px;
+	text-decoration: underline;
+}
+.para1 ul li{
+	font-family: algerian;
+	color: white;
+} 

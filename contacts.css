@@ -1,0 +1,77 @@
+body{
+	background-image: url('wallpaper5.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+	border-image-repeat: no-repeat;
+}
+.tm-container{
+	max-width: 1500px;
+	margin: 0 auto; 
+}
+.tm-header{
+	background: linear-gradient(to right, red, orange, yellow, indigo, violet);
+}
+.tm-header::after{
+	content: " ";
+	clear: both;
+	display: block;
+
+}
+.tm-nav ul li{
+	display: inline-block;
+}
+.tm-nav ul li a{
+	font-size: 200%;
+	line-height: 100px;
+	padding: 10px 20px;
+	text-decoration: none;
+	color: rgb(30,30,30);
+	float: right;
+	font-family: helvetica;
+}
+.tm-logo{
+	float: left;
+}
+.tm-nav ul li a:hover{
+	color: blue;
+	font-family: Courier New;
+}
+.style{
+	margin-left: 500px;
+	margin-top: 20px;
+	border-style: solid;
+	border-color: red;
+	width: 500px;
+	height: 570px;
+	padding-left: 100px;
+}
+.style1 a li{
+	list-style-image: url('fb2.jpg');
+	padding-left: 20px;
+	padding-bottom: 5px;
+	text-decoration: none;
+	font-color: white;
+	font-size: 250%;
+}
+.style2 a li{
+	list-style-image: url('linkedincomp.jpg');
+	padding-left: 10px;
+	padding-bottom: 5px;
+	text-decoration: none;
+	font-color: white;
+	font-size: 250%;
+}
+.style3 li{
+	list-style-image: url('gmailcomp.png');
+	padding-left: 10px;
+	padding-bottom: 5px;
+	color: white;
+	font-size: 300%;
+}
+.style4 li{
+	list-style-image: url('whatsappcomp.png');
+	padding-left: 10px;
+	padding-bottom: 5px;
+	color: white;
+	font-size: 300%;	
+}
